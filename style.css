@@ -1,0 +1,596 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.hero{
+    width: 100%;
+   min-height: 100vh;
+   background-image: url("https://t4.ftcdn.net/jpg/21/96/35/21/240_F_2196352116_q5Jq2jD1T3apjy0nmriEHVCEFTeVBQng.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    position: sticky;
+    top: -20px;
+}
+.about{
+   width: 100%;
+  display: grid;
+  min-height:calc(100vh - 100px) ;
+  
+}
+h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+    margin-left: 30px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.heading2{
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.979);
+    gap: 18px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading2 h5:hover{
+    color: rgba(255, 255, 255, 0.432);
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+
+.main{
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 10%;
+    font-size: 50px;
+
+}
+.mainpara{
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.main,
+.mainpara {
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+.btn{
+    margin-top:30px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.About{
+   background-image:url("https://img.magnific.com/premium-photo/blur-background-cozy-modern-office-space-with-desks-bookshelves-spate_31965-692956.jpg?semt=ais_hybrid&w=740&q=80");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    
+}
+
+.hero2{
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   flex-wrap: wrap;
+   flex-direction: row;
+}
+
+#Aboutus{
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top:90px ;
+    font-size: 60px;
+}
+.box1,
+.box2 {
+    background-color: transparent;
+    width: 300px;
+    height: 430px;
+    border: 1px solid gray;
+    position: sticky;
+    top: -10px;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+.box1,
+.box2 {
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+.Services{
+    background-image:url("https://images.openai.com/static-rsc-4/i3R87Vn1MFlC4V9sHyER_5v57wZowfQUgikxCPR7DY_EB9NVvhVoI8cywNRFPfauhkmxGfJuqWbZy9o-0O51yoHpbwFbjELVHSukR2eQ1JBq9ySvH8CVksXmf7koEfSNASTXKmJSEWhGO7b-o5tUbFHBTBvi3SICqki627Kcrlk?purpose=inline") ;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;    
+}
+.section3 {
+    width: 100%;
+    text-align: center;
+}
+.section3 h1{
+    color: white;
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-top:90px ;
+    font-size: 70px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-left: 0px;
+}
+.section3 p{
+    color: rgba(255, 255, 255, 0.507);
+    letter-spacing: 6px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-left:0px ;
+
+}
+.icons{
+    display: flex;
+    padding-top: 5%;
+    flex-wrap: wrap;
+    
+}
+#cube{
+   color: white;
+    font-size: 30px;
+    margin-left: 60%;
+}
+
+.icon1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-top: -25%;
+    font-size: 30px;
+    margin-left: 50%;
+}
+.icon1 p{
+    font-size:10px ;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.icon2{
+    color: white;
+    font-size: 30px;
+    margin-left: 23%;
+}
+.icon2 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-top: -35%;
+    font-size: 25px;
+    margin-left: 5%;
+}
+.icon2 p{
+    font-size:10px ;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.icon3{
+    color: white;
+    font-size: 30px;
+    margin-left: 65%;
+    margin-top: -12%;
+}
+
+.icon3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0px;
+    margin-top: -20%;
+    font-size: 25px;
+    margin-left: 35%;
+}
+.icon3 p{
+    font-size:10px ;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.icons i,
+.icon1 h1,
+.icon1 p,
+.icon2 h1,
+.icon2 p,
+.icon3 h1,
+.icon3 p {
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+.Gallery{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbGc47w-EJe18vASjTK-qNa0DeAAC44-cF7yztv8rUrYS21BB9lyaj12w&s=10") ;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;  
+    align-items: center;  
+    flex-wrap: wrap;
+     height: auto;
+    
+    
+
+}
+.child1 h1{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+   text-align: center;
+   
+}
+.child1 p{
+    font-size:17px ;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.938);
+    
+}
+.child2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.Line{
+    background-color: white;
+    width: 20%;
+    height: 1px;
+    flex-shrink: 0;
+    margin-top: clamp(60px, 20vw, 70px);
+
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: clamp(25px, 7vw, 100px);
+    width: 100%;
+    padding: 40px 15px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.stat {
+    flex: 0 1 200px;
+}
+
+.stat h1 {
+    color: white;
+    font-size: clamp(35px, 5vw, 60px);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.stat p {
+    color: white;
+    font-size: clamp(9px, 1.2vw, 13px);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+.stat h1,
+.stat p {
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-8px);
+    }
+}
+.Contact{
+    background-image:url("https://images.pexels.com/photos/6189/hand-laptop-notebook-technology.jpg?auto=compress&w=1260&h=750&dpr=1") ;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.contact-content h1{
+    color: white;
+    font-size: clamp(40px, 6vw, 50px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: clamp(30px, 5vw, 50px);
+
+}
+
+
+
+.contact-subtitle {
+        line-height: 1.8;
+        margin-bottom: 20px;
+        letter-spacing: 5px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    }
+
+.contact-form {
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contact-inputs input {
+    width: 50%;
+    height: 60px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    height: 180px;
+    padding: 15px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    outline: none;
+    resize: vertical;
+}
+#button{
+    width: 180px;
+    min-height: 50px;
+    margin: 30px auto 0;
+    padding: 12px 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#button:hover {
+    background-color: white;
+    color: black;
+}
+.contact-content h1 {
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+.foot{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: rgba(255, 255, 255, 0.548);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   align-content: center;
+}
+.foot p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    .contact-form button {
+        width: 100%;
+        max-width: 180px;
+    }
+    .contact-form {
+        padding: 10px;
+    }
+
+    .contact-inputs {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-inputs input {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        height: 160px;
+    }
+}
+@media (max-width: 768px) {
+    .Home,
+    .About,
+    .Services,
+    .Gallery,
+    .Contact {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        box-sizing: border-box;
+    }
+
+    .Home,
+    .About,
+    .Services,
+    .Gallery,
+    .Contact {
+        text-align: center;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .Home,
+    .About,
+    .Services,
+    .Gallery,
+    .Contact {
+        padding-top: 80px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+
+    .hero2,
+    .icons,
+    .stats,
+    .contact-inputs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box1,
+    .box2,
+    .icon1,
+    .icon2,
+    .icon3,
+    .stat {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-inputs input,
+    .contact-form textarea {
+        width: 100%;
+    }
+}
+
+
+
+ 
+
